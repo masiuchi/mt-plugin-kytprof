@@ -1,0 +1,12 @@
+name: KYTProf
+version: 0.01
+
+description: <__trans phrase="Use Plack::Middleware::Profiler::KYTProf on MT::PSGI.">
+plugin_link: https://github.com/masiuchi/mt-plugin-kytprof
+
+author_name: Masahiro Iuchi
+author_link: https://github.com/masiuchi
+
+plack_middlewares:
+  - name: Profiler::KYTProf
+
